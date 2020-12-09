@@ -1,0 +1,90 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.game {
+    position: relative;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 8rem;
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    margin: 9rem auto;
+}
+
+table tr:first-child > td {
+    border-top: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+.start_game {
+    text-align: center;
+    margin: auto;
+    width: 20rem;
+    height: 15rem;
+    position: relative;
+    border: 1px solid black;
+    bottom: 31rem;
+    background-color: rgb(14, 243, 14);
+    padding: 1rem;
+}
+#o,#x {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 100px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+
+.endgame {
+    display: none;
+    text-align: center;
+    margin: auto;
+    width: 20rem;
+    height: 15rem;
+    position: relative;
+    border: 1px solid black;
+    bottom: 31rem;
+    background-color: blue;
+}
+
+#result {
+    position: relative;
+    top: 5rem;
+}
+
+.end_text > h2 {
+    position: relative;
+    top: 5rem;
+}
+
+.endgame button {
+    position: relative;
+    margin: auto;
+    top: 10rem;
+    padding: .5rem;
+}
